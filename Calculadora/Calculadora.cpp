@@ -5,6 +5,7 @@
 * */
 
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -63,7 +64,7 @@ main () {
         cin >> num2;
 
         cout << "Resultado:" << endl;
-        cout << num1 << " % " << num2 << " = " << num1 / num2 << endl;
+        cout << num1 << " % " << num2 << " = " << fmod(num1,num2) << endl;
     }
 
     return 0;
