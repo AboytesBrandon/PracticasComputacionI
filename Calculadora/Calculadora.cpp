@@ -11,8 +11,7 @@ using namespace std;
 
 main () {
 
-    float num1 = 0;
-    float num2 = 0;
+    float num1 = 0, num2 = 0;
     char sig = 0;
     char sum = '+';
     char res = '-';
