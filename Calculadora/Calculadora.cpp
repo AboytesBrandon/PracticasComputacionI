@@ -9,7 +9,7 @@
 
 using namespace std;
 
-main (void) {
+int main (void) {
 
     float num1 = 0, num2 = 0;
     char sig = 0;
